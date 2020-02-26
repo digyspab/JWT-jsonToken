@@ -1,7 +1,7 @@
 {
   "name": "nodejs-creating-restful-apis",
   "version": "1.0.0",
-  "description": "",
+  "description": "![RESTful API design with Node.js](https://cdn-images-1.medium.com/max/2000/1*jjYC9tuf4C3HkHCP5PcKTA.jpeg \"RESTful API design with Node.js\")",
   "main": "app.js",
   "scripts": {
     "start": "node server.js",
@@ -10,8 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "mongoose": "^5.0.1"
-  }
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adnanrahic/nodejs-restful-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adnanrahic/nodejs-restful-api/issues"
+  },
+  "homepage": "https://github.com/adnanrahic/nodejs-restful-api#readme"
 }
